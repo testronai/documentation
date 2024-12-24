@@ -92,6 +92,24 @@ The GPLv3 license ensures that:
   - Repackaging without proper attribution
   - Using the code in proprietary software
 
+## How to Ask for Support
+
+Need help? Have feedback? We're here to help!
+
+### Contact Information
+- 📧 Email: testronai.com@gmail.com
+
+### When Contacting Support
+Please include:
+- Extension version
+- Browser version
+- AI provider being used
+- Clear description of the issue/feedback
+- Steps to reproduce (if reporting an issue)
+- Screenshots (if applicable)
+
+We aim to respond to all inquiries within 24-48 hours. For immediate help with common issues, please check our [Troubleshooting Guide](docs/troubleshooting.md).
+
 ## ⚠️ Disclaimer
 
 ### AI-Generated Code Usage
