@@ -3,7 +3,9 @@
 ## Introduction
 Testron is an AI-powered test automation co-pilot that revolutionizes the way QA engineers and developers create test automation code. As a Chrome extension, it seamlessly integrates with your browser to generate high-quality test scripts using various AI providers.
 
-🎥 [Watch Demo Video: Getting Started with Testron](https://www.youtube.com/watch?v=05fvtjDc-xs)
+### 🎥 Demo Video
+[![Watch Demo Video: Getting Started with Testron](https://img.youtube.com/vi/05fvtjDc-xs/maxresdefault.jpg)](https://www.youtube.com/watch?v=05fvtjDc-xs)
+*Click the image above to watch the demo video*
 
 ### Key Benefits
 - 🚀 Rapid Test Creation: Generate test scripts in seconds
