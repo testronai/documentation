@@ -45,6 +45,7 @@
 - "Cannot connect to AI provider" error
 - Timeout errors
 - Authentication failures
+- 529 "Overloaded" error (Claude specific)
 
 **Solutions:**
 1. Verify API key:
@@ -57,6 +58,83 @@
 2. Check provider status pages
 3. Verify internet connection
 4. Try alternative provider
+
+#### Claude API Overload Error
+**Symptoms:**
+- 529 error with message "Overloaded"
+- Request timeouts
+- Slow response times
+
+**Solutions:**
+1. Immediate Actions:
+   - Wait a few minutes and retry
+   - Switch to another provider temporarily:
+     ```bash
+     # Alternative providers:
+     - Groq (Free tier available)
+     - OpenAI
+     - Ollama (Local, completely free)
+     ```
+2. Long-term Solutions:
+   - Use Ollama as fallback for development/testing
+   - Implement automatic provider failover
+   - Schedule high-volume testing during off-peak hours
+
+#### Ollama Connection Issues
+**Symptoms:**
+- Cannot connect to Ollama
+- Model loading failures
+- CORS errors
+- localhost:11434 not accessible
+
+**Solutions:**
+1. Check Ollama service:
+   ```bash
+   # Mac/Linux
+   ps aux | grep ollama
+   
+   # Windows
+   tasklist | findstr ollama
+   ```
+2. Verify CORS settings:
+   ```bash
+   # Mac/Linux
+   OLLAMA_ORIGINS='chrome-extension://*' ollama serve
+   
+   # Windows
+   set OLLAMA_ORIGINS=chrome-extension://*
+   ollama serve
+   ```
+3. Check model installation:
+   ```bash
+   ollama list
+   ```
+4. Verify localhost access:
+   ```bash
+   # Test Ollama API
+   curl http://localhost:11434/api/tags
+   ```
+
+#### Cost Management Issues
+**Symptoms:**
+- Incorrect cost calculations
+- Missing usage data
+- Reset failures
+- Unexpected token usage
+
+**Solutions:**
+1. Review usage logs
+2. Reset counters if needed
+3. Verify provider pricing
+4. Check token calculations
+5. Cost optimization strategies:
+   ```bash
+   # Free alternatives:
+   1. Use Groq's free tier
+   2. Switch to Ollama for testing
+   3. Enable token usage warnings
+   4. Set conservative thresholds
+   ```
 
 #### Token Usage Warnings
 **Symptoms:**
@@ -242,10 +320,4 @@ FATAL   // Critical errors requiring immediate attention
 ## Getting Additional Help
 
 1. Check [Documentation](README.md)
-2. Visit [Support Portal](support.md)
-3. Join [Community Forum](support.md#community)
-4. Submit [Bug Report](support.md#bug-reports)
-
----
-
-For security-related issues, please refer to our [Security Guide](security.md). 
+2. Contact (Via Email:`testronai.com@gmail.com`)
