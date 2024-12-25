@@ -21,7 +21,7 @@ Testron is an AI-powered test automation co-pilot that revolutionizes the way QA
 
 ### Quick Start Guide
 1. **Installation**
-   - Visit this Chrome Web Store URL: [https://chromewebstore.google.com/detail/testron-testing-co-pilot/ipbkoaadeihckgcdnbnahnooojmjoffm]
+    - Visit the [Chrome Web Store](https://chromewebstore.google.com/detail/testron-testing-co-pilot/ipbkoaadeihckgcdnbnahnooojmjoffm)
    -  Click `Add to Chrome`
 
 2. **Initial Setup**

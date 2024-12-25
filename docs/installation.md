@@ -12,8 +12,8 @@
 
 ## Installation Methods
 
-### Method 1: Chrome Web Store (Coming Soon)
-1. Visit this Chrome Web Store URL: [https://chromewebstore.google.com/detail/testron-testing-co-pilot/ipbkoaadeihckgcdnbnahnooojmjoffm]
+### Chrome Web Store
+1. Visit the [Chrome Web Store](https://chromewebstore.google.com/detail/testron-testing-co-pilot/ipbkoaadeihckgcdnbnahnooojmjoffm)
 2. Click `Add to Chrome`
 3. Click on `Add extension` button on this dialog
    ![Add extension dialog](../assets/add-extension-dialog.png)
